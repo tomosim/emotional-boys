@@ -4,7 +4,8 @@
   "description": "## Goals",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon listen.js"
   },
   "repository": {
     "type": "git",
@@ -24,7 +25,7 @@
     "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
     "express": "^4.16.3",
-    "twit": "^2.2.9",
-    "watson-developer-cloud": "^3.4.2"
+    "ibm-watson": "^5.4.0",
+    "twit": "^2.2.9"
   }
 }
