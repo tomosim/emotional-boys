@@ -1,0 +1,45 @@
+* {
+  font-family: "Comic Sans MS";
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  height: 100vh;
+  background: url("/home-page-images/backgroundtearssmaller.png");
+  background-color: rgb(241, 222, 188);
+}
+
+nav {
+  text-align: center;
+}
+
+.segments {
+  position: relative;
+  float: left;
+  height: 100vh;
+}
+
+#sidebars {
+  width: 17%;
+}
+
+#center {
+  width: 65%;
+}
+#sideimage {
+  width: 100%;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+input {
+  text-align: center;
+  font-size: 36pt;
+  height: 30%;
+}

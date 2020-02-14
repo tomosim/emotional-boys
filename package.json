@@ -1,0 +1,30 @@
+{
+  "name": "BE-FT-emotional-tweets",
+  "version": "1.0.0",
+  "description": "## Goals",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hannahbennett27/BE-FT-emotional-tweets.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hannahbennett27/BE-FT-emotional-tweets/issues"
+  },
+  "homepage": "https://github.com/hannahbennett27/BE-FT-emotional-tweets#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "twit": "^2.2.9",
+    "watson-developer-cloud": "^3.4.2"
+  }
+}
